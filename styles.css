@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira+Extra+Condensed:wght@700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Saira Extra Condensed', sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+
+
+.sidebar {
+  height: 100%;
+  width: 20%;
+  position: fixed;
+  background-color: #ca0f24;
+}
+
+.img-sidebar {
+  text-align: center;
+}
+
+.img-sidebar img {
+  border-radius: 50%;
+  width: 80%;
+  border: 8px solid #c53a4b;
+}
+
+.sidebar-pos {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.menu {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.menu a {
+  color: white;
+  font-size: 23px;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 20px;
+  opacity: 0.4;
+}
+
+.menu a.page {
+  opacity: 1;
+}
+
+.content {
+  width: 80%;
+  height: 100%;
+  position: absolute;
+  left: 20%;
+  overflow-y: auto;
+  padding: 0 3%;
+}
+
+section.profile, section.list {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+section.profile h2 {
+  color: #343a40;
+  font-size: 100px;
+}
+
+section.profile h2 > span,
+section.profile h3 >span {
+    color: #c53a4b;
+} 
+
+section.profile h3 {
+  color: #50565c;
+  font-size: 30px;
+}
+
+section.profile p {
+  color: #50565c;
+  font-size: 24px;
+  margin-top: 80px;
+} 
+
+.icons-socials {
+  margin-top: 30px;
+}
+
+.icons-socials a {
+  text-decoration: none;
+  color: white;
+  background-color: gray;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  display: inline-block;
+  margin: 0 10px;
+  text-align: center;
+}
+
+.icons-socials i {
+  line-height: 40px;
+}
+
+section.list{
+  font-size: 30px;
+  color: #50565c;
+}
+
